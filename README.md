@@ -65,8 +65,12 @@ amazon-products-insights-sql/
 ├── README.md
 ├── data/                     # the 9 CSV files
 ├── sql/
-│   ├── 01_schema_load_clean.sql      # MySQL_Implementation.sql
-│   └── 02_business_queries.sql       # Amazon_SQL_Insights.sql
+│   ├── 01_Database_and_Tables.sql      # MySQL_Implementation.sql
+│   └── 02_Row_Count_Validation.sql       # Amazon_SQL_Insights.sql
+        03_Data_Quality_Checks.sql
+        04_Date_Cleaning_and_Conversion.sql
+        05_Status_and_Name_Standardization.sql
+        06_Business_Insights.sql
 └── presentation/
     └── Amazon_SQL_Insights_Final.pptx
 ```
